@@ -7,7 +7,7 @@ Project ini merupakan implementasi dari sistem manajemen perpustakaan berbasis S
 Struktur database mencakup tabel-tabel seperti `branch`, `employees`, `books`, `members`, `issued_status`, dan `return_status`, yang terhubung dengan relasi *foreign key* untuk menjaga integritas data.
 
 ---
-### Entity Relationship Diagram (ERD)
+### Entity Relationship Diagram (ERD) 
 ![ERD](https://github.com/muhfaridfb/SQL_Library-Management-System/blob/main/library_erd.png)
 ## 2. Database Setup
 Berikut adalah struktur tabel utama yang digunakan dalam proyek ini:
