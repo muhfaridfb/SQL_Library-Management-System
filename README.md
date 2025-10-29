@@ -1,12 +1,14 @@
 # SQL Library Management System
 
+![Library](https://github.com/muhfaridfb/SQL_Library-Management-System/blob/main/library.jpg)
 ## 1. Project Overview
 Project ini merupakan implementasi dari sistem manajemen perpustakaan berbasis SQL. Tujuannya adalah untuk memahami konsep **Database Setup**, **CRUD Operation**, **CTAS (Create Table As Select)**, **Data Analysis**, dan **Advanced SQL Operations**. 
 
 Struktur database mencakup tabel-tabel seperti `branch`, `employees`, `books`, `members`, `issued_status`, dan `return_status`, yang terhubung dengan relasi *foreign key* untuk menjaga integritas data.
 
 ---
-
+### Entity Relationship Diagram (ERD)
+![ERD](https://github.com/muhfaridfb/SQL_Library-Management-System/blob/main/library_erd.png)
 ## 2. Database Setup
 Berikut adalah struktur tabel utama yang digunakan dalam proyek ini:
 
@@ -267,16 +269,5 @@ ORDER BY total_books_issued DESC
 LIMIT 5;
 ```
 
----
-
-## 7. Visual References
-### Entity Relationship Diagram (ERD)
-![ERD](https://github.com/muhfaridfb/SQL_Library-Management-System/blob/main/library_erd.png)
-
-### Library Interface Preview
-![Library](https://github.com/muhfaridfb/SQL_Library-Management-System/blob/main/library.jpg)
-
----
-
-## 8. Summary
+## 7. Summary
 Proyek ini menunjukkan penerapan lengkap SQL mulai dari pembuatan tabel, manipulasi data (CRUD), analisis dengan query agregat, hingga pembuatan laporan lanjutan. Struktur ini dapat dikembangkan untuk implementasi sistem manajemen perpustakaan yang lebih kompleks di masa depan.
